@@ -1,0 +1,30 @@
+object frmCloseDlg: TfrmCloseDlg
+  Left = 1014
+  Height = 240
+  Top = 297
+  Width = 320
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'Close Dialog'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.0.10.0'
+  object Button1: TButton
+    Left = 121
+    Height = 25
+    Top = 136
+    Width = 80
+    Caption = 'Ok'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 121
+    Height = 23
+    Top = 96
+    Width = 80
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 1
+  end
+end

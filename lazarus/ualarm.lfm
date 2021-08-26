@@ -1,0 +1,219 @@
+object fAlarm: TfAlarm
+  Left = 438
+  Height = 722
+  Top = 151
+  Width = 1239
+  BorderIcons = []
+  BorderStyle = bsNone
+  ClientHeight = 722
+  ClientWidth = 1239
+  Color = 16378073
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '2.0.10.0'
+  WindowState = wsFullScreen
+  object RadioGroup1: TRadioGroup
+    Left = 200
+    Height = 49
+    Top = 8
+    Width = 321
+    AutoFill = True
+    Caption = 'Contoh Alarm No.1 '
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 3
+    ClientHeight = 29
+    ClientWidth = 317
+    Columns = 3
+    Items.Strings = (
+      'Normal'
+      'Ack'
+      'Alarm'
+    )
+    OnClick = RadioGroup1SelectionChanged
+    OnSelectionChanged = RadioGroup1SelectionChanged
+    ParentColor = False
+    TabOrder = 0
+    Visible = False
+  end
+  object Panel1: TPanel
+    Left = 1216
+    Height = 648
+    Top = 74
+    Width = 23
+    Align = alRight
+    BevelOuter = bvNone
+    ClientHeight = 648
+    ClientWidth = 23
+    Enabled = False
+    TabOrder = 1
+    Visible = False
+    object Panel2: TPanel
+      Left = 0
+      Height = 30
+      Top = 0
+      Width = 23
+      Align = alTop
+      BevelOuter = bvNone
+      ClientHeight = 30
+      ClientWidth = 23
+      TabOrder = 0
+      object Button1: TButton
+        Left = 0
+        Height = 30
+        Top = 0
+        Width = 23
+        Align = alClient
+        Caption = 'X'
+        OnClick = Button1Click
+        TabOrder = 0
+      end
+    end
+  end
+  object pnAdmin: TPanel
+    Left = 296
+    Height = 23
+    Top = 394
+    Width = 27
+    BevelOuter = bvNone
+    Caption = 'X'
+    Color = clScrollBar
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 2
+    OnClick = pnAdminClick
+    OnContextPopup = pnAdminContextPopup
+  end
+  object Panel4: TPanel
+    Left = 0
+    Height = 74
+    Top = 0
+    Width = 1239
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 74
+    ClientWidth = 1239
+    TabOrder = 3
+    object Panel5: TPanel
+      Left = 0
+      Height = 74
+      Top = 0
+      Width = 304
+      Align = alLeft
+      BevelOuter = bvNone
+      ClientHeight = 74
+      ClientWidth = 304
+      TabOrder = 0
+      object Memo1: TMemo
+        Left = 0
+        Height = 74
+        Top = 0
+        Width = 304
+        Align = alClient
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -12
+        Font.Name = 'Courier New'
+        Font.Pitch = fpFixed
+        Font.Quality = fqDraft
+        ParentFont = False
+        TabOrder = 0
+      end
+    end
+    object Panel3: TPanel
+      Left = 304
+      Height = 74
+      Top = 0
+      Width = 616
+      Align = alLeft
+      BevelOuter = bvNone
+      ClientHeight = 74
+      ClientWidth = 616
+      TabOrder = 1
+      object btAck: TButton
+        Left = 24
+        Height = 25
+        Top = 10
+        Width = 75
+        Caption = 'Ack'
+        OnClick = btAckClick
+        TabOrder = 0
+      end
+      object Edit1: TEdit
+        Left = 142
+        Height = 23
+        Top = 10
+        Width = 80
+        NumbersOnly = True
+        TabOrder = 1
+        Text = '1'
+      end
+      object btAlarm: TButton
+        Left = 224
+        Height = 25
+        Top = 10
+        Width = 75
+        Caption = 'Alarm'
+        OnClick = btAlarmClick
+        TabOrder = 2
+      end
+      object Edit2: TEdit
+        Left = 142
+        Height = 23
+        Top = 42
+        Width = 80
+        NumbersOnly = True
+        TabOrder = 3
+        Text = '1'
+      end
+      object btNormal: TButton
+        Left = 224
+        Height = 25
+        Top = 42
+        Width = 75
+        Caption = 'Normal'
+        OnClick = btNormalClick
+        TabOrder = 4
+      end
+      object Label1: TLabel
+        Left = 678
+        Height = 32
+        Top = 10
+        Width = 228
+        Caption = 'INPUT SIMULATION'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -24
+        Font.Name = 'Segoe UI'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+  end
+  object Timer1: TTimer
+    Interval = 250
+    OnTimer = Timer1Timer
+    Left = 312
+    Top = 208
+  end
+  object Timer2: TTimer
+    OnTimer = Timer2Timer
+    Left = 622
+    Top = 146
+  end
+end

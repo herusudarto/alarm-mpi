@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="17">
+      <Unit0>
+        <Filename Value="Alarm.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="19"/>
+        <UsageCount Value="48"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="umain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="37"/>
+        <CursorPos X="14" Y="92"/>
+        <UsageCount Value="48"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="usecond.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSensor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="49"/>
+        <CursorPos X="74" Y="10"/>
+        <UsageCount Value="48"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="ustringalarm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uStringAlarm"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="209"/>
+        <CursorPos X="61" Y="240"/>
+        <UsageCount Value="48"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="uthird.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmthird"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="31"/>
+        <CursorPos X="57" Y="17"/>
+        <UsageCount Value="47"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="ualarm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fAlarm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uAlarm"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="169"/>
+        <CursorPos X="35" Y="199"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="uclosedlg.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmCloseDlg"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="23" Y="35"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus.2.0.10.32\lcl\stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="9"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\lazarus.2.0.10.32\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1695"/>
+        <CursorPos X="14" Y="1710"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus.2.0.10.32\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="220"/>
+        <CursorPos X="3" Y="240"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus.2.0.10.32\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4189"/>
+        <CursorPos Y="4209"/>
+        <UsageCount Value="9"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus.2.0.10.32\lcl\extctrls.pp"/>
+        <UnitName Value="ExtCtrls"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="14" Y="17"/>
+        <UsageCount Value="14"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\lazarus.2.0.10.32\components\LEDControls-master\controls.blinker.pas"/>
+        <UnitName Value="Controls.Blinker"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="49" Y="5"/>
+        <UsageCount Value="9"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\lazarus.2.0.10.32\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="637"/>
+        <CursorPos X="14" Y="655"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\lazarus.2.0.10.32\components\lazutils\uitypes.pas"/>
+        <UnitName Value="UITypes"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="16"/>
+        <CursorPos X="3" Y="18"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\lazarus.2.0.10.32\components\Cportlaz_v1.0.0\CPortCtl.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="1873"/>
+        <CursorPos X="83" Y="1893"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\lazarus.2.0.10.32\components\Cportlaz_v1.0.0\CPortReg.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="201"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit16>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="191" Column="111" TopLine="163"/>
+      </Position1>
+      <Position2>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="178" Column="48" TopLine="163"/>
+      </Position2>
+      <Position3>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="189" Column="3" TopLine="163"/>
+      </Position3>
+      <Position4>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="180" Column="26" TopLine="163"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="216" Column="3" TopLine="212"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="194" TopLine="190"/>
+      </Position6>
+      <Position7>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="192" Column="3" TopLine="190"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="63" Column="34" TopLine="49"/>
+      </Position8>
+      <Position9>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="194" Column="3" TopLine="189"/>
+      </Position9>
+      <Position10>
+        <Filename Value="ustringalarm.pas"/>
+        <Caret Line="234" Column="4" TopLine="204"/>
+      </Position10>
+      <Position11>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="60" TopLine="9"/>
+      </Position11>
+      <Position12>
+        <Filename Value="ustringalarm.pas"/>
+        <Caret Line="234" Column="23" TopLine="61"/>
+      </Position12>
+      <Position13>
+        <Filename Value="ustringalarm.pas"/>
+        <Caret Line="6" Column="33"/>
+      </Position13>
+      <Position14>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="60" TopLine="9"/>
+      </Position14>
+      <Position15>
+        <Filename Value="ustringalarm.pas"/>
+        <Caret Line="236" Column="25" TopLine="174"/>
+      </Position15>
+      <Position16>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="60" TopLine="9"/>
+      </Position16>
+      <Position17>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="172" Column="3" TopLine="168"/>
+      </Position17>
+      <Position18>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="189" Column="36" TopLine="168"/>
+      </Position18>
+      <Position19>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="174" Column="19" TopLine="168"/>
+      </Position19>
+      <Position20>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="99" Column="16" TopLine="85"/>
+      </Position20>
+      <Position21>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="191" TopLine="169"/>
+      </Position21>
+      <Position22>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="178" Column="3" TopLine="169"/>
+      </Position22>
+      <Position23>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="199" Column="35" TopLine="169"/>
+      </Position23>
+      <Position24>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="198" Column="35" TopLine="168"/>
+      </Position24>
+      <Position25>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="197" Column="35" TopLine="167"/>
+      </Position25>
+      <Position26>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="196" Column="35" TopLine="166"/>
+      </Position26>
+      <Position27>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="195" Column="35" TopLine="165"/>
+      </Position27>
+      <Position28>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="194" Column="35" TopLine="164"/>
+      </Position28>
+      <Position29>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="193" Column="35" TopLine="163"/>
+      </Position29>
+      <Position30>
+        <Filename Value="ualarm.pas"/>
+        <Caret Line="192" Column="35" TopLine="162"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

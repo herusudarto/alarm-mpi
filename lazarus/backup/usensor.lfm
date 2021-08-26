@@ -1,0 +1,51 @@
+object Form2: TForm2
+  Left = 1048
+  Height = 734
+  Top = 573
+  Width = 1307
+  Caption = 'Form2'
+  ClientHeight = 734
+  ClientWidth = 1307
+  LCLVersion = '2.0.10.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 0
+    Width = 1307
+    Align = alTop
+    TabOrder = 0
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 50
+    Top = 684
+    Width = 1307
+    Align = alBottom
+    TabOrder = 1
+  end
+  object Panel3: TPanel
+    Left = 0
+    Height = 634
+    Top = 50
+    Width = 170
+    Align = alLeft
+    TabOrder = 2
+  end
+  object Panel4: TPanel
+    Left = 1137
+    Height = 634
+    Top = 50
+    Width = 170
+    Align = alRight
+    TabOrder = 3
+  end
+  object Panel5: TPanel
+    Left = 170
+    Height = 634
+    Top = 50
+    Width = 967
+    Align = alClient
+    TabOrder = 4
+    OnClick = Panel5Click
+  end
+end
